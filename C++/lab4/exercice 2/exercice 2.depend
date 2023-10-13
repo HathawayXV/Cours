@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1664952655 source:z:\c++\lab4\exercice 2\main.cpp
+	<iostream>
+	<vector>
+
