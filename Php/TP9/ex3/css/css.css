@@ -1,0 +1,31 @@
+header a{
+    color : black;
+    display: block;
+    margin: 10px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+li{
+    width: 40%;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    font-size: x-large;
+}
+
+li a{
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+}
