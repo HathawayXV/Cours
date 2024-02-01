@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+*{
+	margin  : 0;
+	padding : 0;
+}
+/* ------------------------------------------------------------- */
+header{
+	margin           : 2rem;
+	padding          : 1rem;
+	background-color : #CCC;
+	border-radius    : 10px;
+	text-align       : center;
+}
+header h1{
+	font-size : 3.5rem;
+}
+header h2{
+	font-size : 3rem;
+}
+header p{
+	font-size : 1.5rem;
+}
+/* ------------------------------------------------------------- */
+main{
+	margin           : 0 3rem;	
+}
+main section h1{
+	margin          : 1rem 2rem 2rem 2rem;
+	font-size       : 2.2rem;
+	text-decoration : underline;
+}
+main section article h2{
+	font-size       : 1.8rem;
+	text-decoration : underline;
+	margin-bottom   : 1rem;
+}
+main section article p{
+	margin      : 1rem;
+	text-indent : 3rem;
+	font-size   : 1rem;
+}
+/* ------------------------------------------------------------- */
+footer{
+	background-color : #CCC;
+	padding          : 0.5rem 1.5rem;
+}
+footer p{
+	text-align : right;
+}
+footer address p{
+	text-align : center;
+}
+/* ------------------------------------------------------------- */	
+button {
+	padding: 5px 40px;
+}
+
+.COLOR {
+	text-align: center;
+}
+
+.split {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+input {
+	width: 50%;
+	height: 50px
+}
+
+input:valid {
+	background-color: green;
+}
+
+input:invalid {
+	background-color: red;
+}
