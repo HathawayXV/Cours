@@ -55,6 +55,7 @@ footer address p{
 /* ------------------------------------------------------------- */
 .ex5 {
 	position : relative;
+	overflow : hidden;
 	background-image: url(../images/bipbip.jpg);
 	height: 150px;
 	width: 150px;
