@@ -26,5 +26,6 @@ function changer_position(event) {
         console.log(abscisse, ordonnee);
     }
 }
+
 /*Mémorisé le début, puis détécter la fin puis calculer la distance*/
 /* ------------------------------------------------------------ */

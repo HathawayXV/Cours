@@ -52,10 +52,41 @@ footer p{
 footer address p{
 	text-align : center;
 }
-/* ------------------------------------------------------------- */
-.ex5 {
-	position : relative;
-	background-image: url(../images/bipbip.jpg);
-	height: 150px;
-	width: 150px;
+/* ------------------------------------------------------------- */	
+table {
+	border-collapse: collapse;
+	border: 2px solid rgb(140 140 140);
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
 }
+
+button {
+	padding: 10px 80px;
+}
+
+td {
+	border: 1px solid rgb(160 160 160);
+	padding: 8px 10px;
+}
+
+.A {
+	background-color: red;
+}
+
+.B {
+	background-color: blue;
+}
+
+.C {
+	background-color: green;
+}
+
+.D {
+	background-color: greenyellow;
+}
+
+.E {
+	background-color: purple;
+}
+

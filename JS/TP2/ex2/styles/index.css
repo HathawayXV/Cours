@@ -52,10 +52,78 @@ footer p{
 footer address p{
 	text-align : center;
 }
-/* ------------------------------------------------------------- */
-.ex5 {
-	position : relative;
-	background-image: url(../images/bipbip.jpg);
-	height: 150px;
-	width: 150px;
+/* ------------------------------------------------------------- */	
+table {
+	border-collapse: collapse;
+	border: 2px solid rgb(140 140 140);
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+button {
+	margin: 5px;
+	padding: 2px 6px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+td {
+	border: 1px solid rgb(160 160 160);
+	padding: 8px 10px;
+}
+
+.A {
+	background-color: red;
+}
+
+.B {
+	background-color: blue;
+}
+
+.C {
+	background-color: green;
+}
+
+.D {
+	background-color: greenyellow;
+}
+
+.E {
+	background-color: purple;
+}
+
+.graph{
+	height : 600px;
+}
+.graph .axe {
+	stroke       : black;
+	stroke-width : 2;
+}
+.graph .tick{
+	stroke       : black;
+	stroke-width : 1;
+}
+.graph .axe {
+	stroke-width : 2;
+}
+.graph .courbe {
+	fill         : none;
+	stroke-width : 2;
+}
+.graph .courbe[data-name="Suite A"] {
+	stroke : red;
+}
+.graph .courbe[data-name="Suite B"] {
+	stroke : blue;
+}
+.graph .courbe[data-name="Suite C"] {
+	stroke : green;
+}
+.graph .courbe[data-name="Suite D"] {
+	stroke : lime;
+}
+.graph .courbe[data-name="Suite E"] {
+	stroke : purple;
 }
